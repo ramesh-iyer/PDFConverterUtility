@@ -14,7 +14,7 @@ Steps to RUN the Utility
    inFilePath = "C:\Users\USER\Desktop\resources\resume.jpg"
    outFileDir = <Location where the PDF file need to create>  "C:\Users\USER\Desktop\resources"
    
-7. Can include the created JAR file with any Java application and invode as below-
+7. Can include the created JAR file with any Java application and invoke as below-
    
    PdfConverter converter = new PdfConverter();
    converter.convertToPdf(inFilePath, outFileDir);
